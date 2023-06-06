@@ -1,0 +1,63 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'IBM Plex Mono', monospace;
+  background-color: #d5f2fb;
+}
+ 
+h1 {
+  font-weight: 700;  
+  font-size: 3em;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-weight: 100;  
+  font-style: italic;
+  font-size: 2em;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+#masthead {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 80vh;
+}
+
+#links {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 80vw;
+}
+
+#links li {
+  list-style: none;
+  padding: 0 1em;
+}
+
+#links li a {
+  padding-left: 2em;
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: inherit;
+}
+
+#links li a:hover {
+  text-decoration: none;
+}
+
+#links li a.github {
+  background-image: url(assets/logo-github.svg);
+}
+
+#links li a.linkedin {
+  background-image: url(assets/logo-linkedin.svg);
+}
